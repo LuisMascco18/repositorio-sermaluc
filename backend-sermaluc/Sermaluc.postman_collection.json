@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "4ecf9354-d5d2-437b-a2ee-9df81c49b4d6",
+		"name": "Sermaluc",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12536726"
+	},
+	"item": [
+		{
+			"name": "registrarUser",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Juan Rodriguez\",\n  \"email\": \"juan@rodriguez.org\",\n  \"password\": \"hunter2\",\n  \"phones\": [\n    {\n      \"number\": \"1234567\",\n      \"citycode\": \"1\",\n      \"contrycode\": \"57\"\n    }\n  ]\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/user/registrar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						"registrar"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
