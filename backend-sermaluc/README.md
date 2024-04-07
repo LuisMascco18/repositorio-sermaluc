@@ -21,7 +21,9 @@ main BackendSermalucApplication
 
 ## Uso
 Una vez instalado el api cargar el archivo Sermaluc.postman_collection.json
-en postman y ejecurtar el endpoint registrarUser
+en postman y ejecurtar el endpoint registrarUser.
+Si se quiere acceder a la documentacion del api se tiene que ir a la ruta
+http://localhost:8080/swagger-ui/index.html
 
 ## Diagrama
 Si en caso se requiere se tienen el archivo diagrama_soluccion.jpg en donde aparece el diagrama
